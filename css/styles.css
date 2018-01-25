@@ -1,0 +1,160 @@
+body {
+    font-family: Lato !important;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+}
+
+.header {
+    background-image: url("../images/hero-1.jpg");
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    margin-bottom: 3rem;
+}
+
+.h-350 {
+  height: 350px;
+}
+
+@media only screen and (max-width: 991px) {
+  .layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 350px;
+  }
+  .mt-md {
+    margin-top: 10px;
+  }
+}
+
+.font-family-second {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.box-shadow-inset {
+    -webkit-box-shadow: inset 0 8px 5px -5px rgba(0, 0, 0, 0.11);
+    box-shadow: inset 0 8px 5px -5px rgba(0, 0, 0, 0.11);
+}
+
+.btn-outline-success {
+    color: #464a4c !important;
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.15) !important;
+}
+
+.btn {
+  padding: .8rem 1.8rem !important;
+  font-size: 1.1rem !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #676767 !important;
+    border-color: #000 !important;
+}
+
+.btn-primary:hover {
+    color: #676767 !important;
+    background-color: rgba(230, 230, 230, 1) !important;
+    border: 1px solid #676767 !important;
+}
+
+.btn-secondary {
+    color: #ccc !important;
+    background-color: transparent !important;
+    border-color: #fff !important;
+}
+
+.btn-secondary:hover {
+    color: #fff !important;
+    background-color: rgba(230, 230, 230, 0.4) !important;
+    border: 1px solid #fff !important;
+}
+
+.btn-third {
+    background-color: #2d6d2e;
+    color: #fff;
+    border-color: #000 !important;
+}
+
+.btn-third:hover {
+    color: #676767 !important;
+    background-color: rgba(45, 109, 46, 0.6) !important;
+    border: 1px solid #676767 !important;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .border-right-1 {
+    border-right: 1px solid #ccc;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-padding {
+    padding: 25px 0 !important;
+  }
+
+  .mt-nega {
+    margin-top: -20px;
+  }
+}
+
+.w-183 {
+  width: 183px !important;
+}
+
+/* fonts */
+
+.font-size-lg {
+  font-size: 1.2rem;
+}
+
+.font-size-xl {
+  font-size: 2.5rem;
+}
+
+.font-family-third {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 450px) {
+  .header-text {
+    font-size: 33px;
+  }
+}
+
+/* colors */
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #ccc;
+}
+
+.text-dark {
+  color: #676767;
+}
+
+.bg-dark {
+  background-color: #676767;
+}
+
+a:focus, a:hover {
+    color: #2d6d2e !important;
+    text-decoration: underline;
+}
